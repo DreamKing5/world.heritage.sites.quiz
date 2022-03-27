@@ -1,0 +1,10 @@
+body{
+    width: 500px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: rgba(127, 255, 212, 0.658);
+}
+button{
+    padding:5px 20px;
+    background-color: bisque;
+}
