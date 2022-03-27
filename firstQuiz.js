@@ -70,7 +70,7 @@ function Answer_check() {
         if (Qcnt >= mondaisu) {
             //結果発表
             Q.textContent = "問題は以上です。" + correct + "問正解しました。";
-            //ボタンを非表示
+            //ボタンをとテキストボックスを非表示
             document.getElementById("ansB").style.visibility = "collapse";
             document.getElementById("answer").style.visibility = "collapse";
         } else {
