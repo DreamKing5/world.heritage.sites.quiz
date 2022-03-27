@@ -72,6 +72,7 @@ function Answer_check() {
             Q.textContent = "問題は以上です。" + correct + "問正解しました。";
             //ボタンを非表示
             document.getElementById("ansB").style.visibility = "collapse";
+            document.getElementById("answer").style.visibility = "collapse";
         } else {
             Qset();
         }
